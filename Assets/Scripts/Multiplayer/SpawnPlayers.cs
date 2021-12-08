@@ -23,6 +23,4 @@ public class SpawnPlayers : MonoBehaviour
             temp.GetComponent<PlayerController>().SetJoysticks(Instantiate(cameraPrefab, randomPosition, Quaternion.identity)); //*
         }
     }
-
-
 }
